@@ -1,0 +1,40 @@
+
+.half-width{
+    display: flex;
+    text-align: justify;
+    padding-top: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+
+#logo{
+    color:#009150;
+}
+
+#logo:hover{
+    color: #aaff00;
+    transition: 0.7s;
+}
+
+.btn:hover{
+    color: black;
+    background-color: #aaff00;
+    transition: 0.7s;    
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    .half-width{
+        display:inline;
+        text-align: justify;
+    }
+
+    img{
+        width: 100%;
+        margin: 0%;
+    }
+   
+    
+}
